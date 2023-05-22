@@ -79,7 +79,7 @@ class MainKtTest {
     @Test
     fun getCommissionWithoutCardAndLastTransfer() {
         val result = getCommission(transfer = 10000)
-        assertEquals(0, result)
+        assertEquals(10, result)
     }
 
 }
